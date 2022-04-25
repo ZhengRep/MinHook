@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="HDE">
+      <UniqueIdentifier>{9b9d972a-c480-412a-bb11-6c1c8a6cdc87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -20,6 +23,33 @@
     </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Trampoline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Table32.h">
+      <Filter>HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="HDE32.h">
+      <Filter>HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="HDE64.h">
+      <Filter>HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="stdint.h">
+      <Filter>HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Table64.h">
+      <Filter>HDE</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -29,5 +59,28 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Trampoline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HDE32.cpp">
+      <Filter>HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="HDE64.cpp">
+      <Filter>HDE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
