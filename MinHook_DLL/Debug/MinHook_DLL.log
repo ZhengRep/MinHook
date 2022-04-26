@@ -1,4 +1,11 @@
-﻿  MinHook.cpp
+﻿  pch.cpp
+  Buffer.cpp
+  dllmain.cpp
+  HDE32.cpp
+  HDE64.cpp
+  MinHook.cpp
   Thread.cpp
+  Trampoline.cpp
   正在生成代码...
+    正在创建库 E:\Vstudio2019\MinHook\Debug\MinHook_DLL.lib 和对象 E:\Vstudio2019\MinHook\Debug\MinHook_DLL.exp
   MinHook_DLL.vcxproj -> E:\Vstudio2019\MinHook\Debug\MinHook_DLL.dll
