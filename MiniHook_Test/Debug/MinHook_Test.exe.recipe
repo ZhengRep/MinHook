@@ -5,7 +5,11 @@
       <FullPath>E:\Vstudio2019\MinHook\Debug\MinHook_Test.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
-  <ContentFiles />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>E:\Vstudio2019\MinHook\MiniHook_Test\x64.asm</FullPath>
+    </ContentFile>
+  </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
 </Project>

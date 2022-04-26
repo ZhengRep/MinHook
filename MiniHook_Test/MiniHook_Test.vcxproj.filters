@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Asm">
+      <UniqueIdentifier>{80b0cd52-c1f1-46fc-9be2-c386a66d658b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MinHook_Test.h">
@@ -23,5 +26,15 @@
     <ClCompile Include="MinHook_Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x64.asm">
+      <Filter>Asm</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="x86.asm">
+      <Filter>Asm</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>

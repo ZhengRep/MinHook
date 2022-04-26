@@ -4,6 +4,9 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	//exe模块中导入函数
+	Asm_OnInitMember(MessageBoxW);		//将MessageBox地址保存Asm文件中的Data段中
+
+	return 0;
 }
 
